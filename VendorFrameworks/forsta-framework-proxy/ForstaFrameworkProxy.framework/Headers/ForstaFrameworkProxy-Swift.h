@@ -255,6 +255,7 @@ using UInt = size_t;
 
 SWIFT_CLASS_NAMED("ForstaFrameworkProxy")
 @interface ForstaFrameworkProxy : NSObject
+- (void)setupWithClinetId:(NSString * _Nonnull)clinetId clientSecret:(NSString * _Nonnull)clientSecret;
 - (NSString * _Nonnull)getServerId SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end

@@ -1,5 +1,4 @@
-﻿using Foundation;
-using System;
+﻿using System;
 using UIKit;
 using ForstaBinding;
 
@@ -15,8 +14,8 @@ namespace XamarinTestApp
         {
             base.ViewDidLoad ();
 
-            var temp = new ForstaFrameworkProxy();
-            Console.Out.WriteLine("TEST! -  " + temp.ServerId);
+            var proxy = new ForstaFrameworkProxy();
+            Console.Out.WriteLine("TEST - Server ID=" + proxy.ServerId);
         }
 
         public override void DidReceiveMemoryWarning ()
