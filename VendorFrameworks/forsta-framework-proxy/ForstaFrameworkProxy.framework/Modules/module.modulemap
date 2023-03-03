@@ -1,0 +1,11 @@
+framework module ForstaFrameworkProxy {
+  umbrella header "ForstaFrameworkProxy.h"
+
+  export *
+  module * { export * }
+}
+
+module ForstaFrameworkProxy.Swift {
+  header "ForstaFrameworkProxy-Swift.h"
+  requires objc
+}

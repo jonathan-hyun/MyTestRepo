@@ -1,0 +1,4 @@
+framework module ConfirmitMobileSDK {
+  header "ConfirmitMobileSDK-Swift.h"
+  requires objc
+}
